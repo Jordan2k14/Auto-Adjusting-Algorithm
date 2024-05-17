@@ -1,0 +1,4 @@
+2024-05-18 00:09:39,313 - INFO - Data for SPY saved to database.
+2024-05-18 00:09:39,314 - ERROR - Error updating data for SPY: unconverted data remains:  00:00:00.000000
+2024-05-18 00:09:39,509 - INFO - Data for ^VIX saved to database.
+2024-05-18 00:09:39,509 - ERROR - Error updating data for ^VIX: unconverted data remains:  00:00:00.000000
