@@ -4,6 +4,7 @@ from sqlalchemy import create_engine, text
 from datetime import datetime, timedelta
 import os
 import logging
+from scipy.optimize import minimize
 
 # Set up logging
 logging.basicConfig(filename=os.path.join(os.path.dirname(__file__), 'vix_spy.log'), 
@@ -18,6 +19,18 @@ end_date = datetime.now().strftime('%Y-%m-%d')
 # Set the path for the SQLite database
 db_path = os.path.join(os.path.dirname(__file__), 'financial_data.db')
 engine = create_engine(f'sqlite:///{db_path}')
+
+# Load strategy from CSV
+strategy_path = '/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Auto-Adjusting/Auto-Adjusting/data_scripts/strat-1.csv'
+strategy_df = pd.read_csv(strategy_path)
+strategy_df.columns = ['VIX Level', 'SPY Allocation', 'SH Allocation']
+
+# Handle "36+" VIX Level
+strategy_df['VIX Level'] = strategy_df['VIX Level'].replace('36+', '36').astype(int)
+
+# Convert strategy allocations to numeric
+strategy_df['SPY Allocation'] = strategy_df['SPY Allocation'].str.rstrip('%').astype('float') / 100.0 * 100
+strategy_df['SH Allocation'] = strategy_df['SH Allocation'].str.rstrip('%').astype('float') / 100.0 * 100
 
 # Function to download and save data to SQLite database
 def download_and_save_data(ticker, start, end, engine):
@@ -73,19 +86,51 @@ def prepare_data(engine):
     spy_df = load_data(engine, "SPY")
     vix_df = load_data(engine, "^VIX")
     
-    # Now we ensure the dates align
+    # Ensure the dates align
     print("Aligning SPY and VIX data...")
     spy_df, vix_df = spy_df.align(vix_df, join='inner', axis=0)
     
-    # Always important to check for missing data
+    # Check for missing data
     print("Filling missing data if any...")
     spy_df.fillna(method='ffill', inplace=True)
     vix_df.fillna(method='ffill', inplace=True)
     
-    # Calculating daily returns for SPY 
+    # Calculate daily returns for SPY
     spy_df = calculate_daily_returns(spy_df)
     
     return spy_df, vix_df
+
+# Calculate Sharpe ratio
+def calculate_sharpe_ratio(returns, risk_free_rate):
+    avg_return = returns.mean()
+    std_dev = returns.std()
+    sharpe_ratio = (avg_return - risk_free_rate) / std_dev
+    return sharpe_ratio
+
+# Implement strategy
+def implement_strategy(spy_df, vix_df, strategy):
+    print("Implementing strategy...")
+    
+    spy_df['SPY Allocation'] = 100  # Default allocation
+    spy_df['SH Allocation'] = 0     # Default allocation
+    
+    for i, allocation in enumerate(strategy):
+        if i == 36:
+            spy_df.loc[vix_df['Adj Close'] >= i, 'SPY Allocation'] = allocation
+            spy_df.loc[vix_df['Adj Close'] >= i, 'SH Allocation'] = 100 - allocation
+        else:
+            spy_df.loc[vix_df['Adj Close'] == i, 'SPY Allocation'] = allocation
+            spy_df.loc[vix_df['Adj Close'] == i, 'SH Allocation'] = 100 - allocation
+
+    spy_df['Portfolio Return'] = (spy_df['Daily Return'] * spy_df['SPY Allocation'] / 100)
+
+    return spy_df
+
+# Objective function for optimization
+def objective_function(strategy, spy_df, vix_df, risk_free_rate):
+    spy_df = implement_strategy(spy_df.copy(), vix_df, strategy)
+    sharpe_ratio = calculate_sharpe_ratio(spy_df['Portfolio Return'].dropna(), risk_free_rate)
+    return -sharpe_ratio  # We negate because we want to maximize Sharpe ratio
 
 def main():
     for ticker in tickers:
@@ -94,12 +139,33 @@ def main():
     
     spy_df, vix_df = prepare_data(engine)
     
+    # Define initial strategy and bounds
+    initial_strategy = strategy_df['SPY Allocation'].values
+    bounds = [(0, 100) for _ in range(len(initial_strategy))]
+    
+    # Define risk-free rate
+    risk_free_rate = 0.0001  # Example risk-free rate
+    
+    # Perform optimization
+    result = minimize(objective_function, initial_strategy, args=(spy_df, vix_df, risk_free_rate),
+                      bounds=bounds, method='SLSQP')
+    
+    if not result.success:
+        print("Optimization failed:", result.message)
+        return
+    
+    optimal_strategy = result.x
+    
+    print("Optimal Strategy Allocations:")
+    for level, allocation in enumerate(optimal_strategy):
+        print(f"VIX Level {level}: SPY Allocation = {allocation:.2f}%, SH Allocation = {100 - allocation:.2f}%")
+    
+    # Implement the optimal strategy
+    spy_df = implement_strategy(spy_df, vix_df, optimal_strategy)
+    
     # Print daily returns calculations
     print("\nSPY Daily Returns:")
-    print(spy_df[['Adj Close', 'Daily Return']].tail())
-    
-    print("\nVIX Data:")
-    print(vix_df[['Adj Close']].tail())
+    print(spy_df[['Adj Close', 'Daily Return', 'SPY Allocation', 'SH Allocation', 'Portfolio Return']].tail(10))
     
     # Save the prepared data to CSV files
     spy_df.to_csv(os.path.join(os.path.dirname(__file__), 'prepared_SPY.csv'))
@@ -107,6 +173,11 @@ def main():
     
     print("Data update and preparation complete. Prepared data saved to CSV files.")
     logging.info("Data update and preparation complete. Prepared data saved to CSV files.")
+    
+    # Calculate Sharpe ratio for the optimized strategy
+    sharpe_ratio = calculate_sharpe_ratio(spy_df['Portfolio Return'].dropna(), risk_free_rate)
+    print(f"\nSharpe Ratio for the optimized strategy: {sharpe_ratio}")
+    logging.info(f"Sharpe Ratio for the optimized strategy: {sharpe_ratio}")
 
 if __name__ == "__main__":
     main()
