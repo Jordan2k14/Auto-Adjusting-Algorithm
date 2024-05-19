@@ -106,13 +106,17 @@ def implement_strategy(spy_df, vix_df, strategy):
     spy_df['SPY Allocation'] = 100  # Default allocation
     spy_df['SH Allocation'] = 0     # Default allocation
     
+    spy_df['VIX Level'] = 0  # Initialize VIX Level column
+    
     for i, allocation in enumerate(strategy):
         if i == 36:
             spy_df.loc[vix_df['Adj Close'] >= i, 'SPY Allocation'] = allocation
             spy_df.loc[vix_df['Adj Close'] >= i, 'SH Allocation'] = 100 - allocation
+            spy_df.loc[vix_df['Adj Close'] >= i, 'VIX Level'] = i
         else:
             spy_df.loc[vix_df['Adj Close'] == i, 'SPY Allocation'] = allocation
             spy_df.loc[vix_df['Adj Close'] == i, 'SH Allocation'] = 100 - allocation
+            spy_df.loc[vix_df['Adj Close'] == i, 'VIX Level'] = i
 
     spy_df['Portfolio Return'] = (spy_df['Daily Return'] * spy_df['SPY Allocation'] / 100) - (spy_df['Daily Return'] * spy_df['SH Allocation'] / 100)
 
@@ -125,8 +129,8 @@ def objective_function(strategy, spy_df, vix_df, risk_free_rate):
 
 def plot_total_returns(spy_df, start_date, end_date, title):
     filtered_df = spy_df.loc[start_date:end_date]
-    filtered_df['Cumulative Return'] = (1 + filtered_df['Portfolio Return']).cumprod()
-    filtered_df['SPY Cumulative Return'] = (1 + filtered_df['Daily Return']).cumprod()
+    filtered_df.loc[:, 'Cumulative Return'] = (1 + filtered_df['Portfolio Return']).cumprod()
+    filtered_df.loc[:, 'SPY Cumulative Return'] = (1 + filtered_df['Daily Return']).cumprod()
     
     plt.figure(figsize=(14, 7))
     plt.plot(filtered_df['Cumulative Return'], label='Portfolio Cumulative Return')
@@ -134,6 +138,47 @@ def plot_total_returns(spy_df, start_date, end_date, title):
     plt.title(title)
     plt.xlabel('Date')
     plt.ylabel('Cumulative Return')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+
+def plot_optimized_ratios(strategy):
+    plt.figure(figsize=(10, 6))
+    plt.bar(range(len(strategy)), strategy, color='blue', alpha=0.7)
+    plt.xlabel('VIX Level')
+    plt.ylabel('SPY Allocation (%)')
+    plt.title('Optimized SPY Allocation Ratios')
+    plt.grid(True)
+    plt.show()
+
+def plot_returns_build_up(spy_df):
+    plt.figure(figsize=(10, 6))
+    spy_df.loc[:, 'Cumulative Return'] = (1 + spy_df['Portfolio Return']).cumprod()
+    for level in range(37):
+        level_df = spy_df[spy_df['VIX Level'] == level]
+        plt.plot(level_df.index, level_df['Cumulative Return'], label=f'VIX Level {level}')
+    
+    plt.xlabel('Date')
+    plt.ylabel('Cumulative Return')
+    plt.title('Cumulative Returns Build-up for Different VIX Levels')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+
+def plot_comparison_before_after(spy_df, vix_df, initial_strategy, optimal_strategy):
+    initial_df = implement_strategy(spy_df.copy(), vix_df, initial_strategy)
+    optimal_df = implement_strategy(spy_df.copy(), vix_df, optimal_strategy)
+    
+    plt.figure(figsize=(14, 7))
+    initial_df.loc[:, 'Cumulative Return'] = (1 + initial_df['Portfolio Return']).cumprod()
+    optimal_df.loc[:, 'Cumulative Return'] = (1 + optimal_df['Portfolio Return']).cumprod()
+    
+    plt.plot(initial_df.index, initial_df['Cumulative Return'], label='Before Optimization')
+    plt.plot(optimal_df.index, optimal_df['Cumulative Return'], label='After Optimization')
+    
+    plt.xlabel('Date')
+    plt.ylabel('Cumulative Return')
+    plt.title('Comparison of Cumulative Returns Before and After Optimization')
     plt.legend()
     plt.grid(True)
     plt.show()
@@ -187,8 +232,8 @@ def main():
     plt.grid(True)
     plt.show()
 
-    spy_df['Cumulative Return'] = (1 + spy_df['Portfolio Return']).cumprod()
-    spy_df['SPY Cumulative Return'] = (1 + spy_df['Daily Return']).cumprod()
+    spy_df.loc[:, 'Cumulative Return'] = (1 + spy_df['Portfolio Return']).cumprod()
+    spy_df.loc[:, 'SPY Cumulative Return'] = (1 + spy_df['Daily Return']).cumprod()
     plt.figure(figsize=(14, 7))
     plt.plot(spy_df['Cumulative Return'], label='Portfolio Cumulative Return')
     plt.plot(spy_df['SPY Cumulative Return'], label='SPY Cumulative Return')
@@ -211,6 +256,11 @@ def main():
 
     # Plot total returns from June 3, 2006, to June 2023
     plot_total_returns(spy_df, '2006-06-03', '2023-06-30', 'Total Returns from June 3, 2006 to June 2023')
+
+    # New plots
+    plot_optimized_ratios(optimal_strategy)
+    plot_returns_build_up(spy_df)
+    plot_comparison_before_after(spy_df, vix_df, initial_strategy, optimal_strategy)
 
 def fetch_and_update():
     for ticker in tickers:
