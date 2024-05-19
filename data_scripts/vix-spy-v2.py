@@ -24,7 +24,7 @@ db_path = 'financial_data.db'
 engine = create_engine(f'sqlite:///{db_path}')
 
 # Load strategy from CSV
-strategy_path = '/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Auto-Adjusting/Auto-Adjusting/data_scripts/strat-1.csv'
+strategy_path = '/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Auto-Adjusting/Auto-Adjusting/data_scripts/strat-1-v2.csv'
 strategy_df = pd.read_csv(strategy_path)
 strategy_df.columns = ['VIX Level', 'SPY Allocation', 'SH Allocation']
 
@@ -32,8 +32,8 @@ strategy_df.columns = ['VIX Level', 'SPY Allocation', 'SH Allocation']
 strategy_df['VIX Level'] = strategy_df['VIX Level'].replace('36+', '36').astype(int)
 
 # Convert strategy allocations to numeric to make them parsable
-strategy_df['SPY Allocation'] = strategy_df['SPY Allocation'].str.rstrip('%').astype('float') / 100.0 * 100
-strategy_df['SH Allocation'] = strategy_df['SH Allocation'].str.rstrip('%').astype('float') / 100.0 * 100
+strategy_df['SPY Allocation'] = strategy_df['SPY Allocation'].str.rstrip('%').astype('float') / 100.0
+strategy_df['SH Allocation'] = strategy_df['SH Allocation'].str.rstrip('%').astype('float') / 100.0
 
 def download_and_save_data(ticker, start, end, engine):
     try:
@@ -108,17 +108,18 @@ def implement_strategy(spy_df, vix_df, strategy):
     
     spy_df['VIX Level'] = 0  # Initialize VIX Level column
     
-    for i, allocation in enumerate(strategy):
+    for i in range(37):
+        allocation = strategy[i]
         if i == 36:
             spy_df.loc[vix_df['Adj Close'] >= i, 'SPY Allocation'] = allocation
-            spy_df.loc[vix_df['Adj Close'] >= i, 'SH Allocation'] = 100 - allocation
+            spy_df.loc[vix_df['Adj Close'] >= i, 'SH Allocation'] = 1 - allocation
             spy_df.loc[vix_df['Adj Close'] >= i, 'VIX Level'] = i
         else:
             spy_df.loc[vix_df['Adj Close'] == i, 'SPY Allocation'] = allocation
-            spy_df.loc[vix_df['Adj Close'] == i, 'SH Allocation'] = 100 - allocation
+            spy_df.loc[vix_df['Adj Close'] == i, 'SH Allocation'] = 1 - allocation
             spy_df.loc[vix_df['Adj Close'] == i, 'VIX Level'] = i
 
-    spy_df['Portfolio Return'] = (spy_df['Daily Return'] * spy_df['SPY Allocation'] / 100) - (spy_df['Daily Return'] * spy_df['SH Allocation'] / 100)
+    spy_df['Portfolio Return'] = (spy_df['Daily Return'] * spy_df['SPY Allocation']) - (spy_df['Daily Return'] * spy_df['SH Allocation'])
 
     return spy_df
 
@@ -191,9 +192,9 @@ def main():
     spy_df, vix_df = prepare_data(engine)
     
     initial_strategy = strategy_df['SPY Allocation'].values
-    bounds = [(0, 100) for _ in range(len(initial_strategy))]
+    bounds = [(0, 1) for _ in range(len(initial_strategy))]
     
-    risk_free_rate = 0.03
+    risk_free_rate = 0.003
     
     result = minimize(objective_function, initial_strategy, args=(spy_df, vix_df, risk_free_rate),
                       bounds=bounds, method='SLSQP')
@@ -206,7 +207,7 @@ def main():
     
     print("Optimal Strategy Allocations:")
     for level, allocation in enumerate(optimal_strategy):
-        print(f"VIX Level {level}: SPY Allocation = {allocation:.2f}%, SH Allocation = {100 - allocation:.2f}%")
+        print(f"VIX Level {level}: SPY Allocation = {allocation:.2f}, SH Allocation = {1 - allocation:.2f}")
     
     spy_df = implement_strategy(spy_df, vix_df, optimal_strategy)
     
