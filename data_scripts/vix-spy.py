@@ -193,7 +193,7 @@ def main():
     initial_strategy = strategy_df['SPY Allocation'].values
     bounds = [(0, 100) for _ in range(len(initial_strategy))]
     
-    risk_free_rate = 0.03
+    risk_free_rate = 0.0001
     
     result = minimize(objective_function, initial_strategy, args=(spy_df, vix_df, risk_free_rate),
                       bounds=bounds, method='SLSQP')
