@@ -123,6 +123,21 @@ def objective_function(strategy, spy_df, vix_df, risk_free_rate):
     sharpe_ratio = calculate_sharpe_ratio(spy_df['Portfolio Return'].dropna(), risk_free_rate)
     return -sharpe_ratio  # We negate because we want to maximize Sharpe ratio
 
+def plot_total_returns(spy_df, start_date, end_date, title):
+    filtered_df = spy_df.loc[start_date:end_date]
+    filtered_df['Cumulative Return'] = (1 + filtered_df['Portfolio Return']).cumprod()
+    filtered_df['SPY Cumulative Return'] = (1 + filtered_df['Daily Return']).cumprod()
+    
+    plt.figure(figsize=(14, 7))
+    plt.plot(filtered_df['Cumulative Return'], label='Portfolio Cumulative Return')
+    plt.plot(filtered_df['SPY Cumulative Return'], label='SPY Cumulative Return')
+    plt.title(title)
+    plt.xlabel('Date')
+    plt.ylabel('Cumulative Return')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+
 def main():
     for ticker in tickers:
         download_and_save_data(ticker, start_date, end_date, engine)
@@ -190,6 +205,12 @@ def main():
     plt.ylabel('Sharpe Ratio')
     plt.grid(True)
     plt.show()
+
+    # Plot total returns from June 3, 2006, to present day
+    plot_total_returns(spy_df, '2006-06-03', end_date, 'Total Returns from June 3, 2006 to Present Day')
+
+    # Plot total returns from June 3, 2006, to June 2023
+    plot_total_returns(spy_df, '2006-06-03', '2023-06-30', 'Total Returns from June 3, 2006 to June 2023')
 
 def fetch_and_update():
     for ticker in tickers:
