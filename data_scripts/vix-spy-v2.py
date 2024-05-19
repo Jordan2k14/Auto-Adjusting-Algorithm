@@ -2,7 +2,6 @@ import yfinance as yf
 import pandas as pd
 from sqlalchemy import create_engine, text
 from datetime import datetime, timedelta
-import os
 import logging
 import schedule
 import time
@@ -103,8 +102,8 @@ def calculate_sharpe_ratio(returns, risk_free_rate):
 def implement_strategy(spy_df, vix_df, strategy):
     print("Implementing strategy...")
     
-    spy_df['SPY Allocation'] = 100  # Default allocation
-    spy_df['SH Allocation'] = 0     # Default allocation
+    spy_df['SPY Allocation'] = 1.0  # Default allocation as a fraction (100%)
+    spy_df['SH Allocation'] = 0.0   # Default allocation as a fraction (0%)
     
     spy_df['VIX Level'] = 0  # Initialize VIX Level column
     
@@ -192,9 +191,9 @@ def main():
     spy_df, vix_df = prepare_data(engine)
     
     initial_strategy = strategy_df['SPY Allocation'].values
-    bounds = [(0, 1) for _ in range(len(initial_strategy))]
+    bounds = [(0.01, 0.99) for _ in range(len(initial_strategy))]  # Adding constraints to avoid extreme allocations
     
-    risk_free_rate = 0.003
+    risk_free_rate = 0.03  # Adjusted risk-free rate
     
     result = minimize(objective_function, initial_strategy, args=(spy_df, vix_df, risk_free_rate),
                       bounds=bounds, method='SLSQP')
