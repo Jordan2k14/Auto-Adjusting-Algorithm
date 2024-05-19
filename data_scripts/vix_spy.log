@@ -152,3 +152,495 @@
 2024-05-18 00:51:04,900 - INFO - Data for ^VIX updated in the database.
 2024-05-18 00:51:06,360 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
 2024-05-18 00:51:06,361 - INFO - Sharpe Ratio for the optimized strategy: 0.0605539931066218
+2024-05-18 00:54:29,037 - INFO - Data for SPY saved to database.
+2024-05-18 00:54:30,479 - ERROR - 
+1 Failed download:
+2024-05-18 00:54:30,480 - ERROR - ['SPY']: Exception("%ticker%: Data doesn't exist for startDate = 1716004800, endDate = 1716004800")
+2024-05-18 00:54:30,484 - INFO - Data for SPY updated in the database.
+2024-05-18 00:54:30,786 - INFO - Data for ^VIX saved to database.
+2024-05-18 00:54:31,564 - ERROR - 
+1 Failed download:
+2024-05-18 00:54:31,564 - ERROR - ['^VIX']: Exception("%ticker%: Data doesn't exist for startDate = 1716008400, endDate = 1716008400")
+2024-05-18 00:54:31,567 - INFO - Data for ^VIX updated in the database.
+2024-05-18 00:54:33,116 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-18 00:54:33,117 - INFO - Sharpe Ratio for the optimized strategy: 0.06055401175937151
+2024-05-18 00:55:13,513 - INFO - Data for SPY saved to database.
+2024-05-18 00:55:13,514 - ERROR - Error updating data for SPY: unconverted data remains:  00:00:00.000000
+2024-05-18 00:55:13,796 - INFO - Data for ^VIX saved to database.
+2024-05-18 00:55:13,797 - ERROR - Error updating data for ^VIX: unconverted data remains:  00:00:00.000000
+2024-05-18 00:55:15,298 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-18 00:55:15,299 - INFO - Sharpe Ratio for the optimized strategy: 0.06055396913442809
+2024-05-18 00:56:42,073 - INFO - Data for SPY saved to database.
+2024-05-18 00:56:42,991 - ERROR - 
+1 Failed download:
+2024-05-18 00:56:42,992 - ERROR - ['SPY']: Exception("%ticker%: Data doesn't exist for startDate = 1716004800, endDate = 1716004800")
+2024-05-18 00:56:42,996 - INFO - Data for SPY updated in the database.
+2024-05-18 00:56:43,212 - INFO - Data for ^VIX saved to database.
+2024-05-18 00:56:43,978 - ERROR - 
+1 Failed download:
+2024-05-18 00:56:43,978 - ERROR - ['^VIX']: Exception("%ticker%: Data doesn't exist for startDate = 1716008400, endDate = 1716008400")
+2024-05-18 00:56:43,982 - INFO - Data for ^VIX updated in the database.
+2024-05-18 00:56:45,454 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-18 00:56:45,455 - INFO - Sharpe Ratio for the optimized strategy: -1.529825939998604
+2024-05-18 00:59:51,520 - INFO - Data for SPY saved to database.
+2024-05-18 00:59:52,346 - ERROR - 
+1 Failed download:
+2024-05-18 00:59:52,347 - ERROR - ['SPY']: Exception("%ticker%: Data doesn't exist for startDate = 1716004800, endDate = 1716004800")
+2024-05-18 00:59:52,350 - INFO - Data for SPY updated in the database.
+2024-05-18 00:59:52,590 - INFO - Data for ^VIX saved to database.
+2024-05-18 00:59:53,395 - ERROR - 
+1 Failed download:
+2024-05-18 00:59:53,395 - ERROR - ['^VIX']: Exception("%ticker%: Data doesn't exist for startDate = 1716008400, endDate = 1716008400")
+2024-05-18 00:59:53,398 - INFO - Data for ^VIX updated in the database.
+2024-05-18 00:59:55,120 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-18 00:59:55,121 - INFO - Sharpe Ratio for the optimized strategy: 0.06055400051632572
+2024-05-18 01:04:41,769 - INFO - Data for SPY saved to database.
+2024-05-18 01:04:43,326 - ERROR - 
+1 Failed download:
+2024-05-18 01:04:43,327 - ERROR - ['SPY']: Exception("%ticker%: Data doesn't exist for startDate = 1716004800, endDate = 1716004800")
+2024-05-18 01:04:43,331 - INFO - Data for SPY updated in the database.
+2024-05-18 01:04:43,535 - INFO - Data for ^VIX saved to database.
+2024-05-18 01:04:44,749 - ERROR - 
+1 Failed download:
+2024-05-18 01:04:44,749 - ERROR - ['^VIX']: Exception("%ticker%: Data doesn't exist for startDate = 1716008400, endDate = 1716008400")
+2024-05-18 01:04:44,752 - INFO - Data for ^VIX updated in the database.
+2024-05-18 01:04:46,257 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-18 01:04:46,258 - INFO - Sharpe Ratio for the optimized strategy: 0.060553975084766516
+2024-05-18 01:09:56,633 - INFO - Data for SPY saved to database.
+2024-05-18 01:09:57,383 - ERROR - 
+1 Failed download:
+2024-05-18 01:09:57,383 - ERROR - ['SPY']: Exception("%ticker%: Data doesn't exist for startDate = 1716004800, endDate = 1716004800")
+2024-05-18 01:09:57,387 - INFO - Data for SPY updated in the database.
+2024-05-18 01:09:57,625 - INFO - Data for ^VIX saved to database.
+2024-05-18 01:09:58,403 - ERROR - 
+1 Failed download:
+2024-05-18 01:09:58,403 - ERROR - ['^VIX']: Exception("%ticker%: Data doesn't exist for startDate = 1716008400, endDate = 1716008400")
+2024-05-18 01:09:58,410 - INFO - Data for ^VIX updated in the database.
+2024-05-18 01:10:10,122 - INFO - Data for SPY saved to database.
+2024-05-18 01:10:11,032 - ERROR - 
+1 Failed download:
+2024-05-18 01:10:11,032 - ERROR - ['SPY']: Exception("%ticker%: Data doesn't exist for startDate = 1716004800, endDate = 1716004800")
+2024-05-18 01:10:11,036 - INFO - Data for SPY updated in the database.
+2024-05-18 01:10:11,344 - INFO - Data for ^VIX saved to database.
+2024-05-18 01:10:12,054 - ERROR - 
+1 Failed download:
+2024-05-18 01:10:12,054 - ERROR - ['^VIX']: Exception("%ticker%: Data doesn't exist for startDate = 1716008400, endDate = 1716008400")
+2024-05-18 01:10:12,058 - INFO - Data for ^VIX updated in the database.
+2024-05-18 01:12:45,406 - INFO - Data for SPY saved to database.
+2024-05-18 01:12:46,244 - ERROR - 
+1 Failed download:
+2024-05-18 01:12:46,244 - ERROR - ['SPY']: Exception("%ticker%: Data doesn't exist for startDate = 1716004800, endDate = 1716004800")
+2024-05-18 01:12:46,248 - INFO - Data for SPY updated in the database.
+2024-05-18 01:12:46,618 - INFO - Data for ^VIX saved to database.
+2024-05-18 01:12:47,242 - ERROR - 
+1 Failed download:
+2024-05-18 01:12:47,242 - ERROR - ['^VIX']: Exception("%ticker%: Data doesn't exist for startDate = 1716008400, endDate = 1716008400")
+2024-05-18 01:12:47,246 - INFO - Data for ^VIX updated in the database.
+2024-05-18 01:12:49,473 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-18 01:12:49,474 - INFO - Sharpe Ratio for the optimized strategy: 0.06055396211286203
+2024-05-18 01:15:55,212 - INFO - Data for SPY saved to database.
+2024-05-18 01:15:56,080 - ERROR - 
+1 Failed download:
+2024-05-18 01:15:56,081 - ERROR - ['SPY']: Exception("%ticker%: Data doesn't exist for startDate = 1716004800, endDate = 1716004800")
+2024-05-18 01:15:56,085 - INFO - Data for SPY updated in the database.
+2024-05-18 01:15:56,402 - INFO - Data for ^VIX saved to database.
+2024-05-18 01:15:57,294 - ERROR - 
+1 Failed download:
+2024-05-18 01:15:57,294 - ERROR - ['^VIX']: Exception("%ticker%: Data doesn't exist for startDate = 1716008400, endDate = 1716008400")
+2024-05-18 01:15:57,299 - INFO - Data for ^VIX updated in the database.
+2024-05-18 01:17:28,038 - INFO - Data for SPY saved to database.
+2024-05-18 01:17:28,820 - ERROR - 
+1 Failed download:
+2024-05-18 01:17:28,820 - ERROR - ['SPY']: Exception("%ticker%: Data doesn't exist for startDate = 1716004800, endDate = 1716004800")
+2024-05-18 01:17:28,823 - INFO - Data for SPY updated in the database.
+2024-05-18 01:17:29,244 - INFO - Data for ^VIX saved to database.
+2024-05-18 01:17:30,372 - ERROR - 
+1 Failed download:
+2024-05-18 01:17:30,372 - ERROR - ['^VIX']: Exception("%ticker%: Data doesn't exist for startDate = 1716008400, endDate = 1716008400")
+2024-05-18 01:17:30,376 - INFO - Data for ^VIX updated in the database.
+2024-05-18 01:17:31,740 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-18 01:17:31,741 - INFO - Sharpe Ratio for the optimized strategy: -1.529825131300325
+2024-05-18 01:18:18,675 - INFO - Data for SPY saved to database.
+2024-05-18 01:18:20,660 - ERROR - 
+1 Failed download:
+2024-05-18 01:18:20,660 - ERROR - ['SPY']: Exception("%ticker%: Data doesn't exist for startDate = 1716004800, endDate = 1716004800")
+2024-05-18 01:18:20,663 - INFO - Data for SPY updated in the database.
+2024-05-18 01:18:20,876 - INFO - Data for ^VIX saved to database.
+2024-05-18 01:18:22,301 - ERROR - 
+1 Failed download:
+2024-05-18 01:18:22,302 - ERROR - ['^VIX']: Exception("%ticker%: Data doesn't exist for startDate = 1716008400, endDate = 1716008400")
+2024-05-18 01:18:22,306 - INFO - Data for ^VIX updated in the database.
+2024-05-18 01:18:23,768 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-18 01:18:23,769 - INFO - Sharpe Ratio for the optimized strategy: -0.03550913774511023
+2024-05-18 01:20:52,969 - INFO - Data for SPY saved to database.
+2024-05-18 01:20:53,785 - ERROR - 
+1 Failed download:
+2024-05-18 01:20:53,786 - ERROR - ['SPY']: Exception("%ticker%: Data doesn't exist for startDate = 1716004800, endDate = 1716004800")
+2024-05-18 01:20:53,791 - INFO - Data for SPY updated in the database.
+2024-05-18 01:20:54,002 - INFO - Data for ^VIX saved to database.
+2024-05-18 01:20:54,803 - ERROR - 
+1 Failed download:
+2024-05-18 01:20:54,803 - ERROR - ['^VIX']: Exception("%ticker%: Data doesn't exist for startDate = 1716008400, endDate = 1716008400")
+2024-05-18 01:20:54,807 - INFO - Data for ^VIX updated in the database.
+2024-05-18 01:20:56,314 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-18 01:20:56,315 - INFO - Sharpe Ratio for the optimized strategy: 0.06055397201234536
+2024-05-19 14:46:32,894 - INFO - Data for SPY saved to database.
+2024-05-19 14:46:32,988 - INFO - Data for SPY updated in the database.
+2024-05-19 14:46:33,190 - INFO - Data for ^VIX saved to database.
+2024-05-19 14:46:33,234 - INFO - Data for ^VIX updated in the database.
+2024-05-19 14:46:33,579 - INFO - Data for SH saved to database.
+2024-05-19 14:46:33,646 - INFO - Data for SH updated in the database.
+2024-05-19 14:46:35,096 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-19 14:46:35,097 - INFO - Sharpe Ratio for the optimized strategy: 0.060545090463342936
+2024-05-19 14:51:03,708 - INFO - Downloading data for SPY from 2006-01-01 to 2024-05-19...
+2024-05-19 14:51:04,232 - INFO - Data for SPY saved to database. Sample data:                   Open        High         Low       Close  Adj Close    Volume
+Date                                                                           
+2006-01-03  125.190002  127.000000  124.389999  126.699997  89.347862  73256700
+2006-01-04  126.860001  127.489998  126.699997  127.300003  89.770966  51899600
+2006-01-05  127.150002  127.589996  126.879997  127.379997  89.827385  47307500
+2006-01-06  128.020004  128.580002  127.360001  128.440002  90.574852  62885900
+2006-01-09  128.419998  129.059998  128.380005  128.770004  90.807587  43527400
+2024-05-19 14:51:04,233 - INFO - Updating data for SPY from 2024-05-18 to 2024-05-19...
+2024-05-19 14:51:04,331 - INFO - Data for SPY updated in the database. Sample data:                   Open       High         Low       Close   Adj Close    Volume
+Date                                                                           
+2024-05-17  528.809998  529.52002  527.325012  529.450012  529.450012  58651769
+2024-05-19 14:51:04,331 - INFO - Downloading data for ^VIX from 2006-01-01 to 2024-05-19...
+2024-05-19 14:51:04,574 - INFO - Data for ^VIX saved to database. Sample data:              Open   High    Low  Close  Adj Close  Volume
+Date                                                     
+2006-01-03  12.25  12.51  10.99  11.14      11.14       0
+2006-01-04  11.22  11.71  10.97  11.37      11.37       0
+2006-01-05  11.43  11.84  11.31  11.31      11.31       0
+2006-01-06  11.23  11.50  10.81  11.00      11.00       0
+2006-01-09  11.35  11.35  10.98  11.13      11.13       0
+2024-05-19 14:51:04,575 - INFO - Updating data for ^VIX from 2024-05-18 to 2024-05-19...
+2024-05-19 14:51:04,626 - INFO - Data for ^VIX updated in the database. Sample data:             Open   High    Low  Close  Adj Close  Volume
+Date                                                    
+2024-05-17   0.0  12.48  11.91  11.99      11.99       0
+2024-05-19 14:51:04,626 - INFO - Downloading data for SH from 2006-01-01 to 2024-05-19...
+2024-05-19 14:51:04,908 - INFO - Data for SH saved to database. Sample data:                   Open        High         Low       Close   Adj Close  Volume
+Date                                                                          
+2006-06-21  140.139999  140.139999  138.100006  138.380005  101.656120    2200
+2006-06-22  139.100006  140.039993  139.000000  139.479996  102.464195    3600
+2006-06-23  139.919998  139.960007  138.639999  139.520004  102.493599    4050
+2006-06-26  139.600006  139.800003  138.979996  139.080002  102.170364    4400
+2006-06-27  139.000000  140.339996  139.000000  140.279999  103.051903    8850
+2024-05-19 14:51:04,909 - INFO - Updating data for SH from 2024-05-18 to 2024-05-19...
+2024-05-19 14:51:04,982 - INFO - Data for SH updated in the database. Sample data:              Open  High    Low  Close  Adj Close   Volume
+Date                                                     
+2024-05-17  11.86  11.9  11.84  11.85      11.85  8600238
+2024-05-19 14:51:04,982 - INFO - Loading data for SPY from the database...
+2024-05-19 14:51:05,016 - INFO - Data for SPY loaded. Sample data:                   Open        High         Low       Close  Adj Close    Volume
+Date                                                                           
+2006-01-03  125.190002  127.000000  124.389999  126.699997  89.347862  73256700
+2006-01-04  126.860001  127.489998  126.699997  127.300003  89.770966  51899600
+2006-01-05  127.150002  127.589996  126.879997  127.379997  89.827385  47307500
+2006-01-06  128.020004  128.580002  127.360001  128.440002  90.574852  62885900
+2006-01-09  128.419998  129.059998  128.380005  128.770004  90.807587  43527400
+2024-05-19 14:51:05,016 - INFO - Loading data for ^VIX from the database...
+2024-05-19 14:51:05,049 - INFO - Data for ^VIX loaded. Sample data:              Open   High    Low  Close  Adj Close  Volume
+Date                                                     
+2006-01-03  12.25  12.51  10.99  11.14      11.14       0
+2006-01-04  11.22  11.71  10.97  11.37      11.37       0
+2006-01-05  11.43  11.84  11.31  11.31      11.31       0
+2006-01-06  11.23  11.50  10.81  11.00      11.00       0
+2006-01-09  11.35  11.35  10.98  11.13      11.13       0
+2024-05-19 14:51:05,049 - INFO - Aligning SPY and VIX data...
+2024-05-19 14:51:05,049 - INFO - Filling missing data if any...
+2024-05-19 14:51:05,052 - INFO - Implementing strategy...
+2024-05-19 14:51:05,084 - INFO - Implementing strategy...
+2024-05-19 14:51:05,116 - INFO - Implementing strategy...
+2024-05-19 14:51:05,146 - INFO - Implementing strategy...
+2024-05-19 14:51:05,178 - INFO - Implementing strategy...
+2024-05-19 14:51:05,210 - INFO - Implementing strategy...
+2024-05-19 14:51:05,242 - INFO - Implementing strategy...
+2024-05-19 14:51:05,273 - INFO - Implementing strategy...
+2024-05-19 14:51:05,303 - INFO - Implementing strategy...
+2024-05-19 14:51:05,332 - INFO - Implementing strategy...
+2024-05-19 14:51:05,362 - INFO - Implementing strategy...
+2024-05-19 14:51:05,391 - INFO - Implementing strategy...
+2024-05-19 14:51:05,422 - INFO - Implementing strategy...
+2024-05-19 14:51:05,452 - INFO - Implementing strategy...
+2024-05-19 14:51:05,481 - INFO - Implementing strategy...
+2024-05-19 14:51:05,510 - INFO - Implementing strategy...
+2024-05-19 14:51:05,539 - INFO - Implementing strategy...
+2024-05-19 14:51:05,566 - INFO - Implementing strategy...
+2024-05-19 14:51:05,593 - INFO - Implementing strategy...
+2024-05-19 14:51:05,621 - INFO - Implementing strategy...
+2024-05-19 14:51:05,648 - INFO - Implementing strategy...
+2024-05-19 14:51:05,676 - INFO - Implementing strategy...
+2024-05-19 14:51:05,704 - INFO - Implementing strategy...
+2024-05-19 14:51:05,732 - INFO - Implementing strategy...
+2024-05-19 14:51:05,763 - INFO - Implementing strategy...
+2024-05-19 14:51:05,793 - INFO - Implementing strategy...
+2024-05-19 14:51:05,827 - INFO - Implementing strategy...
+2024-05-19 14:51:05,862 - INFO - Implementing strategy...
+2024-05-19 14:51:05,894 - INFO - Implementing strategy...
+2024-05-19 14:51:05,922 - INFO - Implementing strategy...
+2024-05-19 14:51:05,949 - INFO - Implementing strategy...
+2024-05-19 14:51:05,977 - INFO - Implementing strategy...
+2024-05-19 14:51:06,004 - INFO - Implementing strategy...
+2024-05-19 14:51:06,031 - INFO - Implementing strategy...
+2024-05-19 14:51:06,059 - INFO - Implementing strategy...
+2024-05-19 14:51:06,086 - INFO - Implementing strategy...
+2024-05-19 14:51:06,114 - INFO - Implementing strategy...
+2024-05-19 14:51:06,141 - INFO - Implementing strategy...
+2024-05-19 14:51:06,169 - INFO - Optimal Strategy Allocations:
+2024-05-19 14:51:06,169 - INFO - VIX Level 0: SPY Allocation = 100.00%, SH Allocation = 0.00%
+2024-05-19 14:51:06,169 - INFO - VIX Level 1: SPY Allocation = 100.00%, SH Allocation = 0.00%
+2024-05-19 14:51:06,169 - INFO - VIX Level 2: SPY Allocation = 100.00%, SH Allocation = 0.00%
+2024-05-19 14:51:06,169 - INFO - VIX Level 3: SPY Allocation = 100.00%, SH Allocation = 0.00%
+2024-05-19 14:51:06,169 - INFO - VIX Level 4: SPY Allocation = 100.00%, SH Allocation = 0.00%
+2024-05-19 14:51:06,170 - INFO - VIX Level 5: SPY Allocation = 100.00%, SH Allocation = 0.00%
+2024-05-19 14:51:06,170 - INFO - VIX Level 6: SPY Allocation = 96.67%, SH Allocation = 3.33%
+2024-05-19 14:51:06,170 - INFO - VIX Level 7: SPY Allocation = 93.33%, SH Allocation = 6.67%
+2024-05-19 14:51:06,170 - INFO - VIX Level 8: SPY Allocation = 90.00%, SH Allocation = 10.00%
+2024-05-19 14:51:06,170 - INFO - VIX Level 9: SPY Allocation = 86.67%, SH Allocation = 13.33%
+2024-05-19 14:51:06,170 - INFO - VIX Level 10: SPY Allocation = 83.33%, SH Allocation = 16.67%
+2024-05-19 14:51:06,170 - INFO - VIX Level 11: SPY Allocation = 80.00%, SH Allocation = 20.00%
+2024-05-19 14:51:06,170 - INFO - VIX Level 12: SPY Allocation = 76.67%, SH Allocation = 23.33%
+2024-05-19 14:51:06,170 - INFO - VIX Level 13: SPY Allocation = 73.33%, SH Allocation = 26.67%
+2024-05-19 14:51:06,170 - INFO - VIX Level 14: SPY Allocation = 70.00%, SH Allocation = 30.00%
+2024-05-19 14:51:06,170 - INFO - VIX Level 15: SPY Allocation = 66.67%, SH Allocation = 33.33%
+2024-05-19 14:51:06,170 - INFO - VIX Level 16: SPY Allocation = 63.33%, SH Allocation = 36.67%
+2024-05-19 14:51:06,170 - INFO - VIX Level 17: SPY Allocation = 60.00%, SH Allocation = 40.00%
+2024-05-19 14:51:06,170 - INFO - VIX Level 18: SPY Allocation = 56.67%, SH Allocation = 43.33%
+2024-05-19 14:51:06,170 - INFO - VIX Level 19: SPY Allocation = 53.33%, SH Allocation = 46.67%
+2024-05-19 14:51:06,170 - INFO - VIX Level 20: SPY Allocation = 50.00%, SH Allocation = 50.00%
+2024-05-19 14:51:06,170 - INFO - VIX Level 21: SPY Allocation = 46.67%, SH Allocation = 53.33%
+2024-05-19 14:51:06,170 - INFO - VIX Level 22: SPY Allocation = 43.33%, SH Allocation = 56.67%
+2024-05-19 14:51:06,170 - INFO - VIX Level 23: SPY Allocation = 40.00%, SH Allocation = 60.00%
+2024-05-19 14:51:06,170 - INFO - VIX Level 24: SPY Allocation = 36.67%, SH Allocation = 63.33%
+2024-05-19 14:51:06,170 - INFO - VIX Level 25: SPY Allocation = 33.33%, SH Allocation = 66.67%
+2024-05-19 14:51:06,171 - INFO - VIX Level 26: SPY Allocation = 30.00%, SH Allocation = 70.00%
+2024-05-19 14:51:06,171 - INFO - VIX Level 27: SPY Allocation = 26.67%, SH Allocation = 73.33%
+2024-05-19 14:51:06,171 - INFO - VIX Level 28: SPY Allocation = 23.33%, SH Allocation = 76.67%
+2024-05-19 14:51:06,171 - INFO - VIX Level 29: SPY Allocation = 20.00%, SH Allocation = 80.00%
+2024-05-19 14:51:06,171 - INFO - VIX Level 30: SPY Allocation = 16.67%, SH Allocation = 83.33%
+2024-05-19 14:51:06,171 - INFO - VIX Level 31: SPY Allocation = 13.33%, SH Allocation = 86.67%
+2024-05-19 14:51:06,171 - INFO - VIX Level 32: SPY Allocation = 10.00%, SH Allocation = 90.00%
+2024-05-19 14:51:06,171 - INFO - VIX Level 33: SPY Allocation = 6.67%, SH Allocation = 93.33%
+2024-05-19 14:51:06,171 - INFO - VIX Level 34: SPY Allocation = 3.33%, SH Allocation = 96.67%
+2024-05-19 14:51:06,171 - INFO - VIX Level 35: SPY Allocation = 0.00%, SH Allocation = 100.00%
+2024-05-19 14:51:06,171 - INFO - VIX Level 36: SPY Allocation = 0.00%, SH Allocation = 100.00%
+2024-05-19 14:51:06,171 - INFO - Implementing strategy...
+2024-05-19 14:51:06,199 - INFO - 
+SPY Daily Returns for the past 30 days:
+2024-05-19 14:51:06,200 - INFO -              Adj Close  Daily Return  SPY Allocation  SH Allocation  Portfolio Return
+Date                                                                                 
+2024-04-09  519.320007      0.001157          100.00           0.00          0.001157
+2024-04-10  514.119995     -0.010013          100.00           0.00         -0.010013
+2024-04-11  518.000000      0.007547          100.00           0.00          0.007547
+2024-04-12  510.850006     -0.013803          100.00           0.00         -0.013803
+2024-04-15  504.450012     -0.012528          100.00           0.00         -0.012528
+2024-04-16  503.529999     -0.001824          100.00           0.00         -0.001824
+2024-04-17  500.549988     -0.005918          100.00           0.00         -0.005918
+2024-04-18  499.519989     -0.002058           56.67          43.33         -0.001166
+2024-04-19  495.160004     -0.008728          100.00           0.00         -0.008728
+2024-04-22  499.720001      0.009209          100.00           0.00          0.009209
+2024-04-23  505.649994      0.011867          100.00           0.00          0.011867
+2024-04-24  505.410004     -0.000475          100.00           0.00         -0.000475
+2024-04-25  503.489990     -0.003799          100.00           0.00         -0.003799
+2024-04-26  508.260010      0.009474          100.00           0.00          0.009474
+2024-04-29  510.059998      0.003541          100.00           0.00          0.003541
+2024-04-30  501.980011     -0.015841          100.00           0.00         -0.015841
+2024-05-01  500.350006     -0.003247          100.00           0.00         -0.003247
+2024-05-02  505.029999      0.009353          100.00           0.00          0.009353
+2024-05-03  511.290009      0.012395          100.00           0.00          0.012395
+2024-05-06  516.570007      0.010327          100.00           0.00          0.010327
+2024-05-07  517.140015      0.001103          100.00           0.00          0.001103
+2024-05-08  517.190002      0.000097           73.33          26.67          0.000071
+2024-05-09  520.169983      0.005762          100.00           0.00          0.005762
+2024-05-10  520.840027      0.001288          100.00           0.00          0.001288
+2024-05-13  520.909973      0.000134          100.00           0.00          0.000134
+2024-05-14  523.299988      0.004588          100.00           0.00          0.004588
+2024-05-15  529.780029      0.012383          100.00           0.00          0.012383
+2024-05-16  528.690002     -0.002058          100.00           0.00         -0.002058
+2024-05-17  529.450012      0.001438          100.00           0.00          0.001438
+2024-05-17  529.450012      0.000000          100.00           0.00          0.000000
+2024-05-19 14:51:06,350 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-19 14:51:06,351 - INFO - 
+Sharpe Ratio for the optimized strategy: 0.06054511303956302
+2024-05-19 14:52:21,301 - INFO - Downloading data for SPY from 2006-01-01 to 2024-05-19...
+2024-05-19 14:52:21,876 - INFO - Data for SPY saved to database. Sample data:                   Open        High         Low       Close  Adj Close    Volume
+Date                                                                           
+2006-01-03  125.190002  127.000000  124.389999  126.699997  89.347855  73256700
+2006-01-04  126.860001  127.489998  126.699997  127.300003  89.770966  51899600
+2006-01-05  127.150002  127.589996  126.879997  127.379997  89.827400  47307500
+2006-01-06  128.020004  128.580002  127.360001  128.440002  90.574890  62885900
+2006-01-09  128.419998  129.059998  128.380005  128.770004  90.807602  43527400
+2024-05-19 14:52:21,877 - INFO - Updating data for SPY from 2024-05-18 to 2024-05-19...
+2024-05-19 14:52:21,979 - INFO - Data for SPY updated in the database. Sample data:                   Open       High         Low       Close   Adj Close    Volume
+Date                                                                           
+2024-05-17  528.809998  529.52002  527.325012  529.450012  529.450012  58651769
+2024-05-19 14:52:21,979 - INFO - Downloading data for ^VIX from 2006-01-01 to 2024-05-19...
+2024-05-19 14:52:22,196 - INFO - Data for ^VIX saved to database. Sample data:              Open   High    Low  Close  Adj Close  Volume
+Date                                                     
+2006-01-03  12.25  12.51  10.99  11.14      11.14       0
+2006-01-04  11.22  11.71  10.97  11.37      11.37       0
+2006-01-05  11.43  11.84  11.31  11.31      11.31       0
+2006-01-06  11.23  11.50  10.81  11.00      11.00       0
+2006-01-09  11.35  11.35  10.98  11.13      11.13       0
+2024-05-19 14:52:22,197 - INFO - Updating data for ^VIX from 2024-05-18 to 2024-05-19...
+2024-05-19 14:52:22,249 - INFO - Data for ^VIX updated in the database. Sample data:             Open   High    Low  Close  Adj Close  Volume
+Date                                                    
+2024-05-17   0.0  12.48  11.91  11.99      11.99       0
+2024-05-19 14:52:22,249 - INFO - Downloading data for SH from 2006-01-01 to 2024-05-19...
+2024-05-19 14:52:22,515 - INFO - Data for SH saved to database. Sample data:                   Open        High         Low       Close   Adj Close  Volume
+Date                                                                          
+2006-06-21  140.139999  140.139999  138.100006  138.380005  101.656120    2200
+2006-06-22  139.100006  140.039993  139.000000  139.479996  102.464180    3600
+2006-06-23  139.919998  139.960007  138.639999  139.520004  102.493576    4050
+2006-06-26  139.600006  139.800003  138.979996  139.080002  102.170341    4400
+2006-06-27  139.000000  140.339996  139.000000  140.279999  103.051888    8850
+2024-05-19 14:52:22,516 - INFO - Updating data for SH from 2024-05-18 to 2024-05-19...
+2024-05-19 14:52:22,589 - INFO - Data for SH updated in the database. Sample data:              Open  High    Low  Close  Adj Close   Volume
+Date                                                     
+2024-05-17  11.86  11.9  11.84  11.85      11.85  8600238
+2024-05-19 14:52:22,589 - INFO - Loading data for SPY from the database...
+2024-05-19 14:52:22,625 - INFO - Data for SPY loaded. Sample data:                   Open        High         Low       Close  Adj Close    Volume
+Date                                                                           
+2006-01-03  125.190002  127.000000  124.389999  126.699997  89.347855  73256700
+2006-01-04  126.860001  127.489998  126.699997  127.300003  89.770966  51899600
+2006-01-05  127.150002  127.589996  126.879997  127.379997  89.827400  47307500
+2006-01-06  128.020004  128.580002  127.360001  128.440002  90.574890  62885900
+2006-01-09  128.419998  129.059998  128.380005  128.770004  90.807602  43527400
+2024-05-19 14:52:22,625 - INFO - Loading data for ^VIX from the database...
+2024-05-19 14:52:22,658 - INFO - Data for ^VIX loaded. Sample data:              Open   High    Low  Close  Adj Close  Volume
+Date                                                     
+2006-01-03  12.25  12.51  10.99  11.14      11.14       0
+2006-01-04  11.22  11.71  10.97  11.37      11.37       0
+2006-01-05  11.43  11.84  11.31  11.31      11.31       0
+2006-01-06  11.23  11.50  10.81  11.00      11.00       0
+2006-01-09  11.35  11.35  10.98  11.13      11.13       0
+2024-05-19 14:52:22,659 - INFO - Aligning SPY and VIX data...
+2024-05-19 14:52:22,659 - INFO - Filling missing data if any...
+2024-05-19 14:52:22,663 - INFO - Implementing strategy...
+2024-05-19 14:52:22,696 - INFO - Implementing strategy...
+2024-05-19 14:52:22,733 - INFO - Implementing strategy...
+2024-05-19 14:52:22,763 - INFO - Implementing strategy...
+2024-05-19 14:52:22,793 - INFO - Implementing strategy...
+2024-05-19 14:52:22,827 - INFO - Implementing strategy...
+2024-05-19 14:52:22,858 - INFO - Implementing strategy...
+2024-05-19 14:52:22,891 - INFO - Implementing strategy...
+2024-05-19 14:52:22,923 - INFO - Implementing strategy...
+2024-05-19 14:52:22,965 - INFO - Implementing strategy...
+2024-05-19 14:52:23,010 - INFO - Implementing strategy...
+2024-05-19 14:52:23,054 - INFO - Implementing strategy...
+2024-05-19 14:52:23,105 - INFO - Implementing strategy...
+2024-05-19 14:52:23,146 - INFO - Implementing strategy...
+2024-05-19 14:52:23,190 - INFO - Implementing strategy...
+2024-05-19 14:52:23,229 - INFO - Implementing strategy...
+2024-05-19 14:52:23,272 - INFO - Implementing strategy...
+2024-05-19 14:52:23,309 - INFO - Implementing strategy...
+2024-05-19 14:52:23,347 - INFO - Implementing strategy...
+2024-05-19 14:52:23,386 - INFO - Implementing strategy...
+2024-05-19 14:52:23,422 - INFO - Implementing strategy...
+2024-05-19 14:52:23,454 - INFO - Implementing strategy...
+2024-05-19 14:52:23,485 - INFO - Implementing strategy...
+2024-05-19 14:52:23,515 - INFO - Implementing strategy...
+2024-05-19 14:52:23,546 - INFO - Implementing strategy...
+2024-05-19 14:52:23,579 - INFO - Implementing strategy...
+2024-05-19 14:52:23,612 - INFO - Implementing strategy...
+2024-05-19 14:52:23,644 - INFO - Implementing strategy...
+2024-05-19 14:52:23,674 - INFO - Implementing strategy...
+2024-05-19 14:52:23,703 - INFO - Implementing strategy...
+2024-05-19 14:52:23,732 - INFO - Implementing strategy...
+2024-05-19 14:52:23,761 - INFO - Implementing strategy...
+2024-05-19 14:52:23,792 - INFO - Implementing strategy...
+2024-05-19 14:52:23,828 - INFO - Implementing strategy...
+2024-05-19 14:52:23,863 - INFO - Implementing strategy...
+2024-05-19 14:52:23,894 - INFO - Implementing strategy...
+2024-05-19 14:52:23,924 - INFO - Implementing strategy...
+2024-05-19 14:52:23,952 - INFO - Implementing strategy...
+2024-05-19 14:52:23,983 - INFO - Optimal Strategy Allocations:
+2024-05-19 14:52:23,983 - INFO - VIX Level 0: SPY Allocation = 100.00%, SH Allocation = 0.00%
+2024-05-19 14:52:23,983 - INFO - VIX Level 1: SPY Allocation = 100.00%, SH Allocation = 0.00%
+2024-05-19 14:52:23,984 - INFO - VIX Level 2: SPY Allocation = 100.00%, SH Allocation = 0.00%
+2024-05-19 14:52:23,984 - INFO - VIX Level 3: SPY Allocation = 100.00%, SH Allocation = 0.00%
+2024-05-19 14:52:23,984 - INFO - VIX Level 4: SPY Allocation = 100.00%, SH Allocation = 0.00%
+2024-05-19 14:52:23,984 - INFO - VIX Level 5: SPY Allocation = 100.00%, SH Allocation = 0.00%
+2024-05-19 14:52:23,984 - INFO - VIX Level 6: SPY Allocation = 96.67%, SH Allocation = 3.33%
+2024-05-19 14:52:23,984 - INFO - VIX Level 7: SPY Allocation = 93.33%, SH Allocation = 6.67%
+2024-05-19 14:52:23,984 - INFO - VIX Level 8: SPY Allocation = 90.00%, SH Allocation = 10.00%
+2024-05-19 14:52:23,984 - INFO - VIX Level 9: SPY Allocation = 86.67%, SH Allocation = 13.33%
+2024-05-19 14:52:23,984 - INFO - VIX Level 10: SPY Allocation = 83.33%, SH Allocation = 16.67%
+2024-05-19 14:52:23,984 - INFO - VIX Level 11: SPY Allocation = 80.00%, SH Allocation = 20.00%
+2024-05-19 14:52:23,984 - INFO - VIX Level 12: SPY Allocation = 76.67%, SH Allocation = 23.33%
+2024-05-19 14:52:23,984 - INFO - VIX Level 13: SPY Allocation = 73.33%, SH Allocation = 26.67%
+2024-05-19 14:52:23,984 - INFO - VIX Level 14: SPY Allocation = 70.00%, SH Allocation = 30.00%
+2024-05-19 14:52:23,984 - INFO - VIX Level 15: SPY Allocation = 66.67%, SH Allocation = 33.33%
+2024-05-19 14:52:23,984 - INFO - VIX Level 16: SPY Allocation = 63.33%, SH Allocation = 36.67%
+2024-05-19 14:52:23,985 - INFO - VIX Level 17: SPY Allocation = 60.00%, SH Allocation = 40.00%
+2024-05-19 14:52:23,985 - INFO - VIX Level 18: SPY Allocation = 56.67%, SH Allocation = 43.33%
+2024-05-19 14:52:23,985 - INFO - VIX Level 19: SPY Allocation = 53.33%, SH Allocation = 46.67%
+2024-05-19 14:52:23,985 - INFO - VIX Level 20: SPY Allocation = 50.00%, SH Allocation = 50.00%
+2024-05-19 14:52:23,985 - INFO - VIX Level 21: SPY Allocation = 46.67%, SH Allocation = 53.33%
+2024-05-19 14:52:23,985 - INFO - VIX Level 22: SPY Allocation = 43.33%, SH Allocation = 56.67%
+2024-05-19 14:52:23,985 - INFO - VIX Level 23: SPY Allocation = 40.00%, SH Allocation = 60.00%
+2024-05-19 14:52:23,985 - INFO - VIX Level 24: SPY Allocation = 36.67%, SH Allocation = 63.33%
+2024-05-19 14:52:23,985 - INFO - VIX Level 25: SPY Allocation = 33.33%, SH Allocation = 66.67%
+2024-05-19 14:52:23,985 - INFO - VIX Level 26: SPY Allocation = 30.00%, SH Allocation = 70.00%
+2024-05-19 14:52:23,985 - INFO - VIX Level 27: SPY Allocation = 26.67%, SH Allocation = 73.33%
+2024-05-19 14:52:23,985 - INFO - VIX Level 28: SPY Allocation = 23.33%, SH Allocation = 76.67%
+2024-05-19 14:52:23,985 - INFO - VIX Level 29: SPY Allocation = 20.00%, SH Allocation = 80.00%
+2024-05-19 14:52:23,985 - INFO - VIX Level 30: SPY Allocation = 16.67%, SH Allocation = 83.33%
+2024-05-19 14:52:23,985 - INFO - VIX Level 31: SPY Allocation = 13.33%, SH Allocation = 86.67%
+2024-05-19 14:52:23,985 - INFO - VIX Level 32: SPY Allocation = 10.00%, SH Allocation = 90.00%
+2024-05-19 14:52:23,985 - INFO - VIX Level 33: SPY Allocation = 6.67%, SH Allocation = 93.33%
+2024-05-19 14:52:23,985 - INFO - VIX Level 34: SPY Allocation = 3.33%, SH Allocation = 96.67%
+2024-05-19 14:52:23,985 - INFO - VIX Level 35: SPY Allocation = 0.00%, SH Allocation = 100.00%
+2024-05-19 14:52:23,985 - INFO - VIX Level 36: SPY Allocation = 0.00%, SH Allocation = 100.00%
+2024-05-19 14:52:23,986 - INFO - Implementing strategy...
+2024-05-19 14:52:24,014 - INFO - 
+SPY Daily Returns for the past 30 days:
+2024-05-19 14:52:24,015 - INFO -              Adj Close  Daily Return  SPY Allocation  SH Allocation  Portfolio Return
+Date                                                                                 
+2024-04-09  519.320007      0.001157          100.00           0.00          0.001157
+2024-04-10  514.119995     -0.010013          100.00           0.00         -0.010013
+2024-04-11  518.000000      0.007547          100.00           0.00          0.007547
+2024-04-12  510.850006     -0.013803          100.00           0.00         -0.013803
+2024-04-15  504.450012     -0.012528          100.00           0.00         -0.012528
+2024-04-16  503.529999     -0.001824          100.00           0.00         -0.001824
+2024-04-17  500.549988     -0.005918          100.00           0.00         -0.005918
+2024-04-18  499.519989     -0.002058           56.67          43.33         -0.001166
+2024-04-19  495.160004     -0.008728          100.00           0.00         -0.008728
+2024-04-22  499.720001      0.009209          100.00           0.00          0.009209
+2024-04-23  505.649994      0.011867          100.00           0.00          0.011867
+2024-04-24  505.410004     -0.000475          100.00           0.00         -0.000475
+2024-04-25  503.489990     -0.003799          100.00           0.00         -0.003799
+2024-04-26  508.260010      0.009474          100.00           0.00          0.009474
+2024-04-29  510.059998      0.003541          100.00           0.00          0.003541
+2024-04-30  501.980011     -0.015841          100.00           0.00         -0.015841
+2024-05-01  500.350006     -0.003247          100.00           0.00         -0.003247
+2024-05-02  505.029999      0.009353          100.00           0.00          0.009353
+2024-05-03  511.290009      0.012395          100.00           0.00          0.012395
+2024-05-06  516.570007      0.010327          100.00           0.00          0.010327
+2024-05-07  517.140015      0.001103          100.00           0.00          0.001103
+2024-05-08  517.190002      0.000097           73.33          26.67          0.000071
+2024-05-09  520.169983      0.005762          100.00           0.00          0.005762
+2024-05-10  520.840027      0.001288          100.00           0.00          0.001288
+2024-05-13  520.909973      0.000134          100.00           0.00          0.000134
+2024-05-14  523.299988      0.004588          100.00           0.00          0.004588
+2024-05-15  529.780029      0.012383          100.00           0.00          0.012383
+2024-05-16  528.690002     -0.002058          100.00           0.00         -0.002058
+2024-05-17  529.450012      0.001438          100.00           0.00          0.001438
+2024-05-17  529.450012      0.000000          100.00           0.00          0.000000
+2024-05-19 14:52:24,206 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-19 14:52:24,207 - INFO - 
+Sharpe Ratio for the optimized strategy: 0.06054514711329998
+2024-05-19 14:53:26,557 - INFO - Data for SPY saved to database.
+2024-05-19 14:53:26,642 - INFO - Data for SPY updated in the database.
+2024-05-19 14:53:26,892 - INFO - Data for ^VIX saved to database.
+2024-05-19 14:53:26,943 - INFO - Data for ^VIX updated in the database.
+2024-05-19 14:53:27,226 - INFO - Data for SH saved to database.
+2024-05-19 14:53:27,290 - INFO - Data for SH updated in the database.
+2024-05-19 14:53:29,159 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-19 14:53:29,160 - INFO - Sharpe Ratio for the optimized strategy: 0.060545135831449895
+2024-05-19 14:55:09,444 - INFO - Data for SPY saved to database.
+2024-05-19 14:55:09,520 - INFO - Data for SPY updated in the database.
+2024-05-19 14:55:09,797 - INFO - Data for ^VIX saved to database.
+2024-05-19 14:55:09,840 - INFO - Data for ^VIX updated in the database.
+2024-05-19 14:55:10,110 - INFO - Data for SH saved to database.
+2024-05-19 14:55:10,175 - INFO - Data for SH updated in the database.
+2024-05-19 14:55:11,566 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-19 14:55:11,567 - INFO - Sharpe Ratio for the optimized strategy: 0.06054512321261926

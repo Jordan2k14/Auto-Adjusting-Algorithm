@@ -1,0 +1,8 @@
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yfinance/base.py:48: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  _empty_series = pd.Series()
+[*********************100%%**********************]  1 of 1 completed
+[*********************100%%**********************]  1 of 1 completed
+[*********************100%%**********************]  1 of 1 completed
+[*********************100%%**********************]  1 of 1 completed
+[*********************100%%**********************]  1 of 1 completed
+[*********************100%%**********************]  1 of 1 completed
