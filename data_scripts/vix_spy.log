@@ -886,3 +886,23 @@ Sharpe Ratio for the optimized strategy: 0.06054514711329998
 2024-05-19 19:22:16,994 - INFO - Data for SH updated in the database.
 2024-05-19 19:23:22,162 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
 2024-05-19 19:23:22,163 - INFO - Sharpe Ratio for the optimized strategy: 0.04893144136948131
+2024-05-19 19:25:09,173 - INFO - Data for SPY saved to database.
+2024-05-19 19:25:09,250 - INFO - Data for SPY updated in the database.
+2024-05-19 19:25:09,443 - INFO - Data for ^VIX saved to database.
+2024-05-19 19:25:09,489 - INFO - Data for ^VIX updated in the database.
+2024-05-19 19:25:09,761 - INFO - Data for SH saved to database.
+2024-05-19 19:25:09,834 - INFO - Data for SH updated in the database.
+2024-05-19 19:27:42,682 - INFO - Data for SPY saved to database.
+2024-05-19 19:27:42,762 - INFO - Data for SPY updated in the database.
+2024-05-19 19:27:42,961 - INFO - Data for ^VIX saved to database.
+2024-05-19 19:27:43,007 - INFO - Data for ^VIX updated in the database.
+2024-05-19 19:27:43,265 - INFO - Data for SH saved to database.
+2024-05-19 19:27:43,328 - INFO - Data for SH updated in the database.
+2024-05-19 19:28:05,515 - INFO - Data for SPY saved to database.
+2024-05-19 19:28:05,608 - INFO - Data for SPY updated in the database.
+2024-05-19 19:28:05,822 - INFO - Data for ^VIX saved to database.
+2024-05-19 19:28:05,867 - INFO - Data for ^VIX updated in the database.
+2024-05-19 19:28:06,169 - INFO - Data for SH saved to database.
+2024-05-19 19:28:06,277 - INFO - Data for SH updated in the database.
+2024-05-19 19:29:07,852 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-19 19:29:07,853 - INFO - Sharpe Ratio for the optimized strategy: -2.387633809712694
