@@ -114,7 +114,7 @@ def implement_strategy(spy_df, vix_df, strategy):
             spy_df.loc[vix_df['Adj Close'] == i, 'SPY Allocation'] = allocation
             spy_df.loc[vix_df['Adj Close'] == i, 'SH Allocation'] = 100 - allocation
 
-    spy_df['Portfolio Return'] = (spy_df['Daily Return'] * spy_df['SPY Allocation'] / 100)
+    spy_df['Portfolio Return'] = (spy_df['Daily Return'] * spy_df['SPY Allocation'] / 100) - (spy_df['Daily Return'] * spy_df['SH Allocation'] / 100)
 
     return spy_df
 
