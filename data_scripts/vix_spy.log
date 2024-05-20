@@ -9962,3 +9962,177 @@ SH Return    -0.993387  0.136303   1.000000
 2024-05-20 01:11:50,677 - INFO - Data for SH updated in the database.
 2024-05-20 01:13:14,516 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
 2024-05-20 01:13:14,517 - INFO - Sharpe Ratio for the optimized strategy: 0.06804465234824834
+2024-05-20 01:19:50,657 - INFO - Starting main process...
+2024-05-20 01:19:51,115 - INFO - Data for SPY saved to database.
+2024-05-20 01:19:51,196 - INFO - Data for SPY updated in the database.
+2024-05-20 01:19:51,391 - INFO - Data for ^VIX saved to database.
+2024-05-20 01:19:51,442 - INFO - Data for ^VIX updated in the database.
+2024-05-20 01:19:51,692 - INFO - Data for SH saved to database.
+2024-05-20 01:19:51,755 - INFO - Data for SH updated in the database.
+2024-05-20 01:21:11,548 - INFO - Optimization successful
+2024-05-20 01:21:11,548 - INFO - Optimal Strategy Allocations:
+2024-05-20 01:21:11,548 - INFO - VIX Level 0: SPY Allocation = 0.70, SH Allocation = 0.30
+2024-05-20 01:21:11,548 - INFO - VIX Level 1: SPY Allocation = 0.70, SH Allocation = 0.30
+2024-05-20 01:21:11,548 - INFO - VIX Level 2: SPY Allocation = 0.69, SH Allocation = 0.31
+2024-05-20 01:21:11,549 - INFO - VIX Level 3: SPY Allocation = 0.68, SH Allocation = 0.32
+2024-05-20 01:21:11,549 - INFO - VIX Level 4: SPY Allocation = 0.67, SH Allocation = 0.33
+2024-05-20 01:21:11,549 - INFO - VIX Level 5: SPY Allocation = 0.66, SH Allocation = 0.34
+2024-05-20 01:21:11,549 - INFO - VIX Level 6: SPY Allocation = 0.65, SH Allocation = 0.35
+2024-05-20 01:21:11,549 - INFO - VIX Level 7: SPY Allocation = 0.64, SH Allocation = 0.36
+2024-05-20 01:21:11,549 - INFO - VIX Level 8: SPY Allocation = 0.63, SH Allocation = 0.37
+2024-05-20 01:21:11,549 - INFO - VIX Level 9: SPY Allocation = 0.62, SH Allocation = 0.38
+2024-05-20 01:21:11,549 - INFO - VIX Level 10: SPY Allocation = 0.61, SH Allocation = 0.39
+2024-05-20 01:21:11,549 - INFO - VIX Level 11: SPY Allocation = 0.99, SH Allocation = 0.01
+2024-05-20 01:21:11,549 - INFO - VIX Level 12: SPY Allocation = 0.99, SH Allocation = 0.01
+2024-05-20 01:21:11,549 - INFO - VIX Level 13: SPY Allocation = 0.01, SH Allocation = 0.99
+2024-05-20 01:21:11,549 - INFO - VIX Level 14: SPY Allocation = 0.99, SH Allocation = 0.01
+2024-05-20 01:21:11,549 - INFO - VIX Level 15: SPY Allocation = 0.34, SH Allocation = 0.66
+2024-05-20 01:21:11,549 - INFO - VIX Level 16: SPY Allocation = 0.01, SH Allocation = 0.99
+2024-05-20 01:21:11,549 - INFO - VIX Level 17: SPY Allocation = 0.69, SH Allocation = 0.31
+2024-05-20 01:21:11,549 - INFO - VIX Level 18: SPY Allocation = 0.83, SH Allocation = 0.17
+2024-05-20 01:21:11,549 - INFO - VIX Level 19: SPY Allocation = 0.01, SH Allocation = 0.99
+2024-05-20 01:21:11,549 - INFO - VIX Level 20: SPY Allocation = 0.01, SH Allocation = 0.99
+2024-05-20 01:21:11,549 - INFO - VIX Level 21: SPY Allocation = 0.79, SH Allocation = 0.21
+2024-05-20 01:21:11,550 - INFO - VIX Level 22: SPY Allocation = 0.49, SH Allocation = 0.51
+2024-05-20 01:21:11,550 - INFO - VIX Level 23: SPY Allocation = 0.48, SH Allocation = 0.52
+2024-05-20 01:21:11,550 - INFO - VIX Level 24: SPY Allocation = 0.47, SH Allocation = 0.53
+2024-05-20 01:21:11,550 - INFO - VIX Level 25: SPY Allocation = 0.99, SH Allocation = 0.01
+2024-05-20 01:21:11,550 - INFO - VIX Level 26: SPY Allocation = 0.41, SH Allocation = 0.59
+2024-05-20 01:21:11,550 - INFO - VIX Level 27: SPY Allocation = 0.44, SH Allocation = 0.56
+2024-05-20 01:21:11,550 - INFO - VIX Level 28: SPY Allocation = 0.20, SH Allocation = 0.80
+2024-05-20 01:21:11,550 - INFO - VIX Level 29: SPY Allocation = 0.19, SH Allocation = 0.81
+2024-05-20 01:21:11,550 - INFO - VIX Level 30: SPY Allocation = 0.41, SH Allocation = 0.59
+2024-05-20 01:21:11,550 - INFO - VIX Level 31: SPY Allocation = 0.40, SH Allocation = 0.60
+2024-05-20 01:21:11,550 - INFO - VIX Level 32: SPY Allocation = 0.21, SH Allocation = 0.79
+2024-05-20 01:21:11,550 - INFO - VIX Level 33: SPY Allocation = 0.38, SH Allocation = 0.62
+2024-05-20 01:21:11,550 - INFO - VIX Level 34: SPY Allocation = 0.37, SH Allocation = 0.63
+2024-05-20 01:21:11,550 - INFO - VIX Level 35: SPY Allocation = 0.36, SH Allocation = 0.64
+2024-05-20 01:21:11,550 - INFO - VIX Level 36: SPY Allocation = 0.26, SH Allocation = 0.74
+2024-05-20 01:21:11,622 - INFO - 
+SPY Daily Returns for the past 30 days:
+2024-05-20 01:21:11,624 - INFO -              Adj Close  Daily Return  SPY Allocation  SH Allocation  Portfolio Return
+Date                                                                                 
+2024-04-09  519.320007      0.001157        1.000000       0.000000          0.001157
+2024-04-10  514.119995     -0.010013        1.000000       0.000000         -0.010013
+2024-04-11  518.000000      0.007547        1.000000       0.000000          0.007547
+2024-04-12  510.850006     -0.013803        1.000000       0.000000         -0.013803
+2024-04-15  504.450012     -0.012528        1.000000       0.000000         -0.012528
+2024-04-16  503.529999     -0.001824        1.000000       0.000000         -0.001824
+2024-04-17  500.549988     -0.005918        1.000000       0.000000         -0.005918
+2024-04-18  499.519989     -0.002058        0.830645       0.169355         -0.001361
+2024-04-19  495.160004     -0.008728        1.000000       0.000000         -0.008728
+2024-04-22  499.720001      0.009209        1.000000       0.000000          0.009209
+2024-04-23  505.649994      0.011867        1.000000       0.000000          0.011867
+2024-04-24  505.410004     -0.000475        1.000000       0.000000         -0.000475
+2024-04-25  503.489990     -0.003799        1.000000       0.000000         -0.003799
+2024-04-26  508.260010      0.009474        1.000000       0.000000          0.009474
+2024-04-29  510.059998      0.003541        1.000000       0.000000          0.003541
+2024-04-30  501.980011     -0.015841        1.000000       0.000000         -0.015841
+2024-05-01  500.350006     -0.003247        1.000000       0.000000         -0.003247
+2024-05-02  505.029999      0.009353        1.000000       0.000000          0.009353
+2024-05-03  511.290009      0.012395        1.000000       0.000000          0.012395
+2024-05-06  516.570007      0.010327        1.000000       0.000000          0.010327
+2024-05-07  517.140015      0.001103        1.000000       0.000000          0.001103
+2024-05-08  517.190002      0.000097        0.010000       0.990000         -0.000095
+2024-05-09  520.169983      0.005762        1.000000       0.000000          0.005762
+2024-05-10  520.840027      0.001288        1.000000       0.000000          0.001288
+2024-05-13  520.909973      0.000134        1.000000       0.000000          0.000134
+2024-05-14  523.299988      0.004588        1.000000       0.000000          0.004588
+2024-05-15  529.780029      0.012383        1.000000       0.000000          0.012383
+2024-05-16  528.690002     -0.002058        1.000000       0.000000         -0.002058
+2024-05-17  529.450012      0.001438        1.000000       0.000000          0.001438
+2024-05-17  529.450012      0.000000        1.000000       0.000000          0.000000
+2024-05-20 01:21:11,753 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-20 01:21:11,754 - INFO - 
+Sharpe Ratio for the optimized strategy: 0.06804468047846196
+2024-05-20 01:22:10,910 - INFO - Starting main process...
+2024-05-20 01:22:11,391 - INFO - Data for SPY saved to database.
+2024-05-20 01:22:11,469 - INFO - Data for SPY updated in the database.
+2024-05-20 01:22:11,667 - INFO - Data for ^VIX saved to database.
+2024-05-20 01:22:11,719 - INFO - Data for ^VIX updated in the database.
+2024-05-20 01:22:11,970 - INFO - Data for SH saved to database.
+2024-05-20 01:22:12,033 - INFO - Data for SH updated in the database.
+2024-05-20 01:23:37,010 - INFO - Optimization successful
+2024-05-20 01:23:37,011 - INFO - Optimal Strategy Allocations:
+2024-05-20 01:23:37,011 - INFO - VIX Level 0: SPY Allocation = 0.70, SH Allocation = 0.30
+2024-05-20 01:23:37,011 - INFO - VIX Level 1: SPY Allocation = 0.70, SH Allocation = 0.30
+2024-05-20 01:23:37,011 - INFO - VIX Level 2: SPY Allocation = 0.69, SH Allocation = 0.31
+2024-05-20 01:23:37,011 - INFO - VIX Level 3: SPY Allocation = 0.68, SH Allocation = 0.32
+2024-05-20 01:23:37,011 - INFO - VIX Level 4: SPY Allocation = 0.67, SH Allocation = 0.33
+2024-05-20 01:23:37,011 - INFO - VIX Level 5: SPY Allocation = 0.66, SH Allocation = 0.34
+2024-05-20 01:23:37,011 - INFO - VIX Level 6: SPY Allocation = 0.65, SH Allocation = 0.35
+2024-05-20 01:23:37,011 - INFO - VIX Level 7: SPY Allocation = 0.64, SH Allocation = 0.36
+2024-05-20 01:23:37,011 - INFO - VIX Level 8: SPY Allocation = 0.63, SH Allocation = 0.37
+2024-05-20 01:23:37,011 - INFO - VIX Level 9: SPY Allocation = 0.62, SH Allocation = 0.38
+2024-05-20 01:23:37,011 - INFO - VIX Level 10: SPY Allocation = 0.61, SH Allocation = 0.39
+2024-05-20 01:23:37,011 - INFO - VIX Level 11: SPY Allocation = 0.99, SH Allocation = 0.01
+2024-05-20 01:23:37,012 - INFO - VIX Level 12: SPY Allocation = 0.99, SH Allocation = 0.01
+2024-05-20 01:23:37,012 - INFO - VIX Level 13: SPY Allocation = 0.01, SH Allocation = 0.99
+2024-05-20 01:23:37,012 - INFO - VIX Level 14: SPY Allocation = 0.99, SH Allocation = 0.01
+2024-05-20 01:23:37,012 - INFO - VIX Level 15: SPY Allocation = 0.34, SH Allocation = 0.66
+2024-05-20 01:23:37,012 - INFO - VIX Level 16: SPY Allocation = 0.01, SH Allocation = 0.99
+2024-05-20 01:23:37,012 - INFO - VIX Level 17: SPY Allocation = 0.69, SH Allocation = 0.31
+2024-05-20 01:23:37,012 - INFO - VIX Level 18: SPY Allocation = 0.83, SH Allocation = 0.17
+2024-05-20 01:23:37,012 - INFO - VIX Level 19: SPY Allocation = 0.01, SH Allocation = 0.99
+2024-05-20 01:23:37,012 - INFO - VIX Level 20: SPY Allocation = 0.01, SH Allocation = 0.99
+2024-05-20 01:23:37,012 - INFO - VIX Level 21: SPY Allocation = 0.79, SH Allocation = 0.21
+2024-05-20 01:23:37,012 - INFO - VIX Level 22: SPY Allocation = 0.49, SH Allocation = 0.51
+2024-05-20 01:23:37,012 - INFO - VIX Level 23: SPY Allocation = 0.48, SH Allocation = 0.52
+2024-05-20 01:23:37,012 - INFO - VIX Level 24: SPY Allocation = 0.47, SH Allocation = 0.53
+2024-05-20 01:23:37,012 - INFO - VIX Level 25: SPY Allocation = 0.99, SH Allocation = 0.01
+2024-05-20 01:23:37,012 - INFO - VIX Level 26: SPY Allocation = 0.41, SH Allocation = 0.59
+2024-05-20 01:23:37,012 - INFO - VIX Level 27: SPY Allocation = 0.44, SH Allocation = 0.56
+2024-05-20 01:23:37,013 - INFO - VIX Level 28: SPY Allocation = 0.20, SH Allocation = 0.80
+2024-05-20 01:23:37,013 - INFO - VIX Level 29: SPY Allocation = 0.19, SH Allocation = 0.81
+2024-05-20 01:23:37,013 - INFO - VIX Level 30: SPY Allocation = 0.41, SH Allocation = 0.59
+2024-05-20 01:23:37,013 - INFO - VIX Level 31: SPY Allocation = 0.40, SH Allocation = 0.60
+2024-05-20 01:23:37,013 - INFO - VIX Level 32: SPY Allocation = 0.21, SH Allocation = 0.79
+2024-05-20 01:23:37,013 - INFO - VIX Level 33: SPY Allocation = 0.38, SH Allocation = 0.62
+2024-05-20 01:23:37,013 - INFO - VIX Level 34: SPY Allocation = 0.37, SH Allocation = 0.63
+2024-05-20 01:23:37,013 - INFO - VIX Level 35: SPY Allocation = 0.36, SH Allocation = 0.64
+2024-05-20 01:23:37,013 - INFO - VIX Level 36: SPY Allocation = 0.26, SH Allocation = 0.74
+2024-05-20 01:23:37,054 - INFO - 
+SPY Daily Returns for the past 30 days:
+2024-05-20 01:23:37,056 - INFO -              Adj Close  Daily Return  SPY Allocation  SH Allocation  Portfolio Return
+Date                                                                                 
+2024-04-09  519.320007      0.001157        1.000000       0.000000          0.001157
+2024-04-10  514.119995     -0.010013        1.000000       0.000000         -0.010013
+2024-04-11  518.000000      0.007547        1.000000       0.000000          0.007547
+2024-04-12  510.850006     -0.013803        1.000000       0.000000         -0.013803
+2024-04-15  504.450012     -0.012528        1.000000       0.000000         -0.012528
+2024-04-16  503.529999     -0.001824        1.000000       0.000000         -0.001824
+2024-04-17  500.549988     -0.005918        1.000000       0.000000         -0.005918
+2024-04-18  499.519989     -0.002058        0.830743       0.169257         -0.001361
+2024-04-19  495.160004     -0.008728        1.000000       0.000000         -0.008728
+2024-04-22  499.720001      0.009209        1.000000       0.000000          0.009209
+2024-04-23  505.649994      0.011867        1.000000       0.000000          0.011867
+2024-04-24  505.410004     -0.000475        1.000000       0.000000         -0.000475
+2024-04-25  503.489990     -0.003799        1.000000       0.000000         -0.003799
+2024-04-26  508.260010      0.009474        1.000000       0.000000          0.009474
+2024-04-29  510.059998      0.003541        1.000000       0.000000          0.003541
+2024-04-30  501.980011     -0.015841        1.000000       0.000000         -0.015841
+2024-05-01  500.350006     -0.003247        1.000000       0.000000         -0.003247
+2024-05-02  505.029999      0.009353        1.000000       0.000000          0.009353
+2024-05-03  511.290009      0.012395        1.000000       0.000000          0.012395
+2024-05-06  516.570007      0.010327        1.000000       0.000000          0.010327
+2024-05-07  517.140015      0.001103        1.000000       0.000000          0.001103
+2024-05-08  517.190002      0.000097        0.010000       0.990000         -0.000095
+2024-05-09  520.169983      0.005762        1.000000       0.000000          0.005762
+2024-05-10  520.840027      0.001288        1.000000       0.000000          0.001288
+2024-05-13  520.909973      0.000134        1.000000       0.000000          0.000134
+2024-05-14  523.299988      0.004588        1.000000       0.000000          0.004588
+2024-05-15  529.780029      0.012383        1.000000       0.000000          0.012383
+2024-05-16  528.690002     -0.002058        1.000000       0.000000         -0.002058
+2024-05-17  529.450012      0.001438        1.000000       0.000000          0.001438
+2024-05-17  529.450012      0.000000        1.000000       0.000000          0.000000
+2024-05-20 01:23:37,188 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-20 01:23:37,189 - INFO - 
+Sharpe Ratio for the optimized strategy: 0.06804469807189115
+2024-05-20 01:25:54,705 - INFO - Data for SPY saved to database.
+2024-05-20 01:25:54,786 - INFO - Data for SPY updated in the database.
+2024-05-20 01:25:54,977 - INFO - Data for ^VIX saved to database.
+2024-05-20 01:25:55,021 - INFO - Data for ^VIX updated in the database.
+2024-05-20 01:25:55,270 - INFO - Data for SH saved to database.
+2024-05-20 01:25:55,333 - INFO - Data for SH updated in the database.
+2024-05-20 01:26:49,288 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-20 01:26:49,288 - INFO - Sharpe Ratio for the optimized strategy: -2.3876353494080726
