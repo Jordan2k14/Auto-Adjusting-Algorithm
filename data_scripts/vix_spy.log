@@ -11016,3 +11016,86 @@ Sharpe Ratio for the optimized strategy: 0.06804469807189115
 2024-05-20 18:37:20,979 - INFO - Data for SH updated in the database.
 2024-05-20 18:38:37,173 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
 2024-05-20 18:38:37,174 - INFO - Sharpe Ratio for the optimized strategy: 0.06805415560566135
+2024-05-21 14:58:54,457 - INFO - Data for SPY saved to database.
+2024-05-21 14:58:54,526 - ERROR - 
+1 Failed download:
+2024-05-21 14:58:54,526 - ERROR - ['SPY']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 14:58:54,530 - INFO - Data for SPY updated in the database.
+2024-05-21 14:58:54,751 - INFO - Data for ^VIX saved to database.
+2024-05-21 14:58:54,787 - ERROR - 
+1 Failed download:
+2024-05-21 14:58:54,787 - ERROR - ['^VIX']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 14:58:54,790 - INFO - Data for ^VIX updated in the database.
+2024-05-21 14:58:55,067 - INFO - Data for SH saved to database.
+2024-05-21 14:58:55,127 - ERROR - 
+1 Failed download:
+2024-05-21 14:58:55,127 - ERROR - ['SH']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 14:58:55,133 - INFO - Data for SH updated in the database.
+2024-05-21 15:00:28,437 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-21 15:00:28,438 - INFO - Sharpe Ratio for the optimized strategy: 0.06514442264072957
+2024-05-21 15:01:29,824 - INFO - Data for SPY saved to database.
+2024-05-21 15:01:29,893 - ERROR - 
+1 Failed download:
+2024-05-21 15:01:29,893 - ERROR - ['SPY']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 15:01:29,899 - INFO - Data for SPY updated in the database.
+2024-05-21 15:01:30,146 - INFO - Data for ^VIX saved to database.
+2024-05-21 15:01:30,181 - ERROR - 
+1 Failed download:
+2024-05-21 15:01:30,181 - ERROR - ['^VIX']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 15:01:30,184 - INFO - Data for ^VIX updated in the database.
+2024-05-21 15:01:30,538 - INFO - Data for SH saved to database.
+2024-05-21 15:01:30,594 - ERROR - 
+1 Failed download:
+2024-05-21 15:01:30,594 - ERROR - ['SH']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 15:01:30,599 - INFO - Data for SH updated in the database.
+2024-05-21 15:03:02,756 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-21 15:03:02,757 - INFO - Sharpe Ratio for the optimized strategy: 0.06514450163523726
+2024-05-21 15:17:12,541 - INFO - Data for SPY saved to database.
+2024-05-21 15:17:12,600 - ERROR - 
+1 Failed download:
+2024-05-21 15:17:12,600 - ERROR - ['SPY']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 15:17:12,604 - INFO - Data for SPY updated in the database.
+2024-05-21 15:17:12,901 - INFO - Data for ^VIX saved to database.
+2024-05-21 15:17:12,933 - ERROR - 
+1 Failed download:
+2024-05-21 15:17:12,934 - ERROR - ['^VIX']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 15:17:12,939 - INFO - Data for ^VIX updated in the database.
+2024-05-21 15:17:13,262 - INFO - Data for SH saved to database.
+2024-05-21 15:17:13,306 - ERROR - 
+1 Failed download:
+2024-05-21 15:17:13,306 - ERROR - ['SH']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 15:17:13,310 - INFO - Data for SH updated in the database.
+2024-05-21 15:20:04,827 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-21 15:20:04,828 - INFO - Sharpe Ratio for the optimized strategy (Annual): 0.06514448004673508
+2024-05-21 15:29:58,529 - INFO - Data for SPY saved to database.
+2024-05-21 15:29:58,593 - ERROR - 
+1 Failed download:
+2024-05-21 15:29:58,593 - ERROR - ['SPY']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 15:29:58,597 - INFO - Data for SPY updated in the database.
+2024-05-21 15:29:58,861 - INFO - Data for ^VIX saved to database.
+2024-05-21 15:29:58,896 - ERROR - 
+1 Failed download:
+2024-05-21 15:29:58,896 - ERROR - ['^VIX']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 15:29:58,903 - INFO - Data for ^VIX updated in the database.
+2024-05-21 15:29:59,289 - INFO - Data for SH saved to database.
+2024-05-21 15:29:59,351 - ERROR - 
+1 Failed download:
+2024-05-21 15:29:59,351 - ERROR - ['SH']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 15:29:59,359 - INFO - Data for SH updated in the database.
+2024-05-21 15:55:30,073 - INFO - Data for SPY saved to database.
+2024-05-21 15:55:30,141 - ERROR - 
+1 Failed download:
+2024-05-21 15:55:30,141 - ERROR - ['SPY']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 15:55:30,144 - INFO - Data for SPY updated in the database.
+2024-05-21 15:55:30,344 - INFO - Data for ^VIX saved to database.
+2024-05-21 15:55:30,378 - ERROR - 
+1 Failed download:
+2024-05-21 15:55:30,378 - ERROR - ['^VIX']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 15:55:30,381 - INFO - Data for ^VIX updated in the database.
+2024-05-21 15:55:30,669 - INFO - Data for SH saved to database.
+2024-05-21 15:55:30,727 - ERROR - 
+1 Failed download:
+2024-05-21 15:55:30,727 - ERROR - ['SH']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 15:55:30,731 - INFO - Data for SH updated in the database.
+2024-05-21 15:57:16,907 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-21 15:57:16,909 - INFO - Sharpe Ratio for the optimized strategy: 0.06514449408305151
