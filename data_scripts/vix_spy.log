@@ -11177,3 +11177,159 @@ Sharpe Ratio for the optimized strategy: 0.06804469807189115
 1 Failed download:
 2024-05-21 16:38:46,999 - ERROR - ['SH']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
 2024-05-21 16:38:47,005 - INFO - Data for SH updated in the database.
+2024-05-21 16:46:24,038 - INFO - Data for SPY saved to database.
+2024-05-21 16:46:24,097 - ERROR - 
+1 Failed download:
+2024-05-21 16:46:24,098 - ERROR - ['SPY']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 16:46:24,102 - INFO - Data for SPY updated in the database.
+2024-05-21 16:46:24,331 - INFO - Data for ^VIX saved to database.
+2024-05-21 16:46:24,367 - ERROR - 
+1 Failed download:
+2024-05-21 16:46:24,368 - ERROR - ['^VIX']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 16:46:24,373 - INFO - Data for ^VIX updated in the database.
+2024-05-21 16:46:24,653 - INFO - Data for SH saved to database.
+2024-05-21 16:46:24,699 - ERROR - 
+1 Failed download:
+2024-05-21 16:46:24,699 - ERROR - ['SH']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 16:46:24,703 - INFO - Data for SH updated in the database.
+2024-05-21 16:50:58,609 - INFO - Data for SPY saved to database.
+2024-05-21 16:50:58,686 - ERROR - 
+1 Failed download:
+2024-05-21 16:50:58,686 - ERROR - ['SPY']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 16:50:58,691 - INFO - Data for SPY updated in the database.
+2024-05-21 16:50:58,898 - INFO - Data for ^VIX saved to database.
+2024-05-21 16:50:58,921 - ERROR - 
+1 Failed download:
+2024-05-21 16:50:58,921 - ERROR - ['^VIX']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 16:50:58,926 - INFO - Data for ^VIX updated in the database.
+2024-05-21 16:50:59,188 - INFO - Data for SH saved to database.
+2024-05-21 16:50:59,234 - ERROR - 
+1 Failed download:
+2024-05-21 16:50:59,234 - ERROR - ['SH']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-21 -> 2024-05-21)')
+2024-05-21 16:50:59,237 - INFO - Data for SH updated in the database.
+2024-05-21 17:14:27,079 - INFO - Data update and preparation complete. Prepared data saved to CSV files.
+2024-05-21 17:14:27,082 - INFO - Sharpe Ratio for the optimized strategy: -6.391126672065255
+2024-05-23 16:09:52,157 - INFO - Data for SPY saved to database.
+2024-05-23 16:09:52,216 - ERROR - 
+1 Failed download:
+2024-05-23 16:09:52,216 - ERROR - ['SPY']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 16:09:52,220 - INFO - Data for SPY updated in the database.
+2024-05-23 16:09:52,425 - INFO - Data for ^VIX saved to database.
+2024-05-23 16:09:52,451 - ERROR - 
+1 Failed download:
+2024-05-23 16:09:52,451 - ERROR - ['^VIX']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 16:09:52,454 - INFO - Data for ^VIX updated in the database.
+2024-05-23 16:09:52,735 - INFO - Data for SH saved to database.
+2024-05-23 16:09:52,783 - ERROR - 
+1 Failed download:
+2024-05-23 16:09:52,784 - ERROR - ['SH']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 16:09:52,788 - INFO - Data for SH updated in the database.
+2024-05-23 16:20:12,198 - INFO - Data for SPY saved to database.
+2024-05-23 16:20:12,259 - ERROR - 
+1 Failed download:
+2024-05-23 16:20:12,259 - ERROR - ['SPY']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 16:20:12,263 - INFO - Data for SPY updated in the database.
+2024-05-23 16:20:12,467 - INFO - Data for ^VIX saved to database.
+2024-05-23 16:20:12,491 - ERROR - 
+1 Failed download:
+2024-05-23 16:20:12,492 - ERROR - ['^VIX']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 16:20:12,496 - INFO - Data for ^VIX updated in the database.
+2024-05-23 16:20:12,777 - INFO - Data for SH saved to database.
+2024-05-23 16:20:12,834 - ERROR - 
+1 Failed download:
+2024-05-23 16:20:12,834 - ERROR - ['SH']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 16:20:12,838 - INFO - Data for SH updated in the database.
+2024-05-23 16:46:24,819 - INFO - Data for SPY saved to database.
+2024-05-23 16:46:24,889 - ERROR - 
+1 Failed download:
+2024-05-23 16:46:24,890 - ERROR - ['SPY']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 16:46:24,894 - INFO - Data for SPY updated in the database.
+2024-05-23 16:46:25,108 - INFO - Data for ^VIX saved to database.
+2024-05-23 16:46:25,146 - ERROR - 
+1 Failed download:
+2024-05-23 16:46:25,146 - ERROR - ['^VIX']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 16:46:25,150 - INFO - Data for ^VIX updated in the database.
+2024-05-23 16:46:25,400 - INFO - Data for SH saved to database.
+2024-05-23 16:46:25,458 - ERROR - 
+1 Failed download:
+2024-05-23 16:46:25,459 - ERROR - ['SH']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 16:46:25,463 - INFO - Data for SH updated in the database.
+2024-05-23 16:51:53,046 - INFO - Data for SPY saved to database.
+2024-05-23 16:51:53,130 - ERROR - 
+1 Failed download:
+2024-05-23 16:51:53,130 - ERROR - ['SPY']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 16:51:53,133 - INFO - Data for SPY updated in the database.
+2024-05-23 16:51:53,372 - INFO - Data for ^VIX saved to database.
+2024-05-23 16:51:53,396 - ERROR - 
+1 Failed download:
+2024-05-23 16:51:53,396 - ERROR - ['^VIX']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 16:51:53,401 - INFO - Data for ^VIX updated in the database.
+2024-05-23 16:51:53,700 - INFO - Data for SH saved to database.
+2024-05-23 16:51:53,795 - ERROR - 
+1 Failed download:
+2024-05-23 16:51:53,796 - ERROR - ['SH']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 16:51:53,800 - INFO - Data for SH updated in the database.
+2024-05-23 16:53:28,903 - INFO - Data for SPY saved to database.
+2024-05-23 16:53:28,962 - ERROR - 
+1 Failed download:
+2024-05-23 16:53:28,962 - ERROR - ['SPY']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 16:53:28,966 - INFO - Data for SPY updated in the database.
+2024-05-23 16:53:29,549 - INFO - Data for ^VIX saved to database.
+2024-05-23 16:53:29,583 - ERROR - 
+1 Failed download:
+2024-05-23 16:53:29,583 - ERROR - ['^VIX']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 16:53:29,587 - INFO - Data for ^VIX updated in the database.
+2024-05-23 16:53:29,841 - INFO - Data for SH saved to database.
+2024-05-23 16:53:29,899 - ERROR - 
+1 Failed download:
+2024-05-23 16:53:29,899 - ERROR - ['SH']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 16:53:29,902 - INFO - Data for SH updated in the database.
+2024-05-23 17:07:49,650 - INFO - Data for SPY saved to database.
+2024-05-23 17:07:49,723 - ERROR - 
+1 Failed download:
+2024-05-23 17:07:49,723 - ERROR - ['SPY']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 17:07:49,727 - INFO - Data for SPY updated in the database.
+2024-05-23 17:07:49,930 - INFO - Data for ^VIX saved to database.
+2024-05-23 17:07:49,955 - ERROR - 
+1 Failed download:
+2024-05-23 17:07:49,955 - ERROR - ['^VIX']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 17:07:49,958 - INFO - Data for ^VIX updated in the database.
+2024-05-23 17:07:50,224 - INFO - Data for SH saved to database.
+2024-05-23 17:07:50,273 - ERROR - 
+1 Failed download:
+2024-05-23 17:07:50,273 - ERROR - ['SH']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 17:07:50,276 - INFO - Data for SH updated in the database.
+2024-05-23 17:08:25,952 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-05-23 17:08:25,953 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-05-23 17:10:49,266 - INFO - Data for SPY saved to database.
+2024-05-23 17:10:49,335 - ERROR - 
+1 Failed download:
+2024-05-23 17:10:49,336 - ERROR - ['SPY']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 17:10:49,336 - INFO - Data for SPY updated in the database.
+2024-05-23 17:10:49,537 - INFO - Data for ^VIX saved to database.
+2024-05-23 17:10:49,573 - ERROR - 
+1 Failed download:
+2024-05-23 17:10:49,573 - ERROR - ['^VIX']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 17:10:49,573 - INFO - Data for ^VIX updated in the database.
+2024-05-23 17:10:49,820 - INFO - Data for SH saved to database.
+2024-05-23 17:10:49,863 - ERROR - 
+1 Failed download:
+2024-05-23 17:10:49,863 - ERROR - ['SH']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 17:10:49,864 - INFO - Data for SH updated in the database.
+2024-05-23 17:19:24,838 - INFO - Data for SPY saved to database.
+2024-05-23 17:19:24,902 - ERROR - 
+1 Failed download:
+2024-05-23 17:19:24,902 - ERROR - ['SPY']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 17:19:24,903 - INFO - Data for SPY updated in the database.
+2024-05-23 17:19:25,100 - INFO - Data for ^VIX saved to database.
+2024-05-23 17:19:25,122 - ERROR - 
+1 Failed download:
+2024-05-23 17:19:25,122 - ERROR - ['^VIX']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 17:19:25,122 - INFO - Data for ^VIX updated in the database.
+2024-05-23 17:19:25,364 - INFO - Data for SH saved to database.
+2024-05-23 17:19:25,409 - ERROR - 
+1 Failed download:
+2024-05-23 17:19:25,410 - ERROR - ['SH']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2024-05-23 -> 2024-05-23)')
+2024-05-23 17:19:25,410 - INFO - Data for SH updated in the database.
+2024-05-23 17:49:10,607 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-05-23 17:49:10,620 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
